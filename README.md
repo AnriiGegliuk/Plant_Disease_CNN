@@ -30,3 +30,15 @@ Our dataset contains images of tomato leaves and stucture of my folder is:
 * 📊 Model Evaluation - We'll evaluate our model's performance on a separate test set.
 * 🔄 Model Improvement - We'll try different strategies to improve our model's performance.
 * 🖼️ Result Visualization - We'll visualize our results to make them interpretable.
+
+
+
+
+<center>
+<h3> 🖼️ Final result</h3>
+</center>
+
+<img width="1025" alt="image" src="https://github.com/AnriiGegliuk/Plant_Disease_CNN/assets/120349975/670b6122-756d-421c-af36-7f90fe9f3733">
+
+
+
