@@ -23,13 +23,13 @@ Our dataset contains images of tomato leaves and stucture of my folder is:
 </center>
 
 
-* 🔍 Data Exploration - We'll visualize our data and check the distribution of different classes.
-* 🧹 Data Preprocessing - We'll load and preprocess our image data to make it suitable for a neural network.
-* 🛠 Model Building - We'll build a CNN model using TensorFlow and Keras.
-* 🎯 Model Training - We'll train our model on our dataset, using a separate validation set to monitor its performance.
-* 📊 Model Evaluation - We'll evaluate our model's performance on a separate test set.
-* 🔄 Model Improvement - We'll try different strategies to improve our model's performance.
-* 🖼️ Result Visualization - We'll visualize our results to make them interpretable.
+* 🔍 Data Exploration - visualize our data and check the distribution of different classes.
+* 🧹 Data Preprocessing - load and preprocess our image data to make it suitable for a neural network.
+* 🛠 Model Building - build a CNN model using TensorFlow and Keras.
+* 🎯 Model Training - train our model on our dataset, using a separate validation set to monitor its performance.
+* 📊 Model Evaluation - evaluate our model's performance on a separate test set.
+* 🔄 Model Improvement - try different strategies to improve our model's performance.
+* 🖼️ Result Visualization - visualize our results to make them interpretable.
 
 
 
