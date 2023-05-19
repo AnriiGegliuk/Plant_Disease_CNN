@@ -41,4 +41,9 @@ Our dataset contains images of tomato leaves and stucture of my folder is:
 <img width="1025" alt="image" src="https://github.com/AnriiGegliuk/Plant_Disease_CNN/assets/120349975/670b6122-756d-421c-af36-7f90fe9f3733">
 
 
+<center>
+<h3> Future plans for this project. In progress... </h3>
+</center>
+
+Deploy this model into cloud and Streamlit
 
