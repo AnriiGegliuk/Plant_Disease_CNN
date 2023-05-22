@@ -45,5 +45,5 @@ Our dataset contains images of tomato leaves and stucture of my folder is:
 <h3> Future plans for this project. In progress... </h3>
 </center>
 
-Deploy this model into cloud and Streamlit
+Deploy this model into cloud and Streamlit or create FastAPI
 
