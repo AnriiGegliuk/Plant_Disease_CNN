@@ -4,7 +4,7 @@
 
 
 <center>
-<h3>🎯 Project Description</h3>
+<h3>🎯 Project Description! </h3>
 </center>
 
 In this project, we'll leverage the power of Deep Learning to detect and classify various plant diseases. Specifically, we'll be focusing on diseases in tomato plants.
