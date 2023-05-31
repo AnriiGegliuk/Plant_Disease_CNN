@@ -2,10 +2,9 @@
 <h1>🌱 Plant Disease Classification using Deep Learning 🍅</h1>
 </center>
 
-
-<center>
-<h3>🎯 Project Description! </h3>
-</center>
+<div align="center">
+<h3>🎯 Project Description!</h3>
+</div>
 
 In this project, we'll leverage the power of Deep Learning to detect and classify various plant diseases. Specifically, we'll be focusing on diseases in tomato plants.
 
@@ -17,10 +16,9 @@ Our dataset contains images of tomato leaves and stucture of my folder is:
 
 <img width="230" alt="image" src="https://github.com/AnriiGegliuk/Plant_Disease_CNN/assets/120349975/8629ca02-c9c8-43c6-8653-0df2bf5e162a">
 
-
-<center>
+<div align="center">
 <h3> I will go through the following steps:</h3>
-</center>
+</div>
 
 
 * 🔍 Data Exploration - visualize our data and check the distribution of different classes.
