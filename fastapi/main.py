@@ -10,5 +10,5 @@ async def hello():
 
 
 @app.post('/analysis')
-async def pred(file: UploadFile):
+async def pred(file: UploadFile = File(...)):
     pass
