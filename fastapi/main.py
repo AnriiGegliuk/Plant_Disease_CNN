@@ -21,7 +21,6 @@ def read_img(data):
         raise ValueError(f"Failed to open image: {e}")
     img = img.resize((180, 180))
     img = np.array(img)
-
     return img
 
 
@@ -37,6 +36,7 @@ async def pred(file: UploadFile = File(...)):
     pred = model.predict(img_reshape)
     pred_class = class_name[np.argmax(pred)]
     confidence = float(np.max(pred))
-    return {'prediction': pred_class,
-            'confidence': confidence
-            }
+    return {
+        'prediction': pred_class,
+        'confidence': confidence
+    }
