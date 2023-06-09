@@ -1,5 +1,5 @@
 # importing libraries
-from fastapi import FastAPI, File, UploadFile
+from fastapi import FastAPI, File, UploadFile, HTTPException
 import numpy as np
 import uvicorn
 from io import BytesIO
@@ -30,10 +30,15 @@ async def pred(file: UploadFile = File(...)):
 
     img_reshape = np.expand_dims(img, 0)
 
-    if img_reshape is None:
-        raise ValueError("Image could not be reshaped")
 
-    pred = model.predict(img_reshape)
+    if img_reshape is None:
+        raise HTTPException(status_code = 500, detail = 'Image could not be reshaped')
+
+    try:
+        pred = model.predict(img_reshape)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Model prediction failed: {e}")
+
     pred_class = class_name[np.argmax(pred)]
     confidence = float(np.max(pred))
     return {
