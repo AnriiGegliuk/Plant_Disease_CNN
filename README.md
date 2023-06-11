@@ -43,5 +43,5 @@ Our dataset contains images of tomato leaves and stucture of my folder is:
 <h3> Future plans for this project. In progress... </h3>
 </center>
 
-Creating FastAPI and deploying to Streamlit is in process...
+FastAPI and Streamlit created. Will be deployed soon.
 
