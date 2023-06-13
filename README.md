@@ -40,7 +40,7 @@ Our dataset contains images of tomato leaves and stucture of my folder is:
 
 
 <center>
-<h3> Future plans for this project. In progress... </h3>
+<h3> Future plans for this project. </h3>
 </center>
 
 FastAPI and Streamlit created. Will be deployed soon.
