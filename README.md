@@ -12,7 +12,7 @@ With climate change and the increasing demand for food production, it's essentia
 
 Enter Deep Learning! By training a model on images of plant leaves, we can automate the disease detection process, making it more efficient and accessible.
 
-Our dataset contains images of tomato leaves and stucture of my folder is: 
+My dataset contains images of tomato leaves and stucture of my folder is: 
 
 <img width="230" alt="image" src="https://github.com/AnriiGegliuk/Plant_Disease_CNN/assets/120349975/8629ca02-c9c8-43c6-8653-0df2bf5e162a">
 
